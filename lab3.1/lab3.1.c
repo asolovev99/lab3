@@ -52,6 +52,15 @@ int main()
 	average = average / lenght_of_array;
 	median = find_median(numbers);
 
+	if (is_random > 0)
+	{
+		printf("\n");
+		for (int i = 0; i < lenght_of_array; i++)
+		{
+			printf("%d: %lf\n", i, numbers[i]);
+		}
+	}
+	printf("\n");
 	printf("Maximum = %lf\nMinimum = %lf\nAverage = %lf\nMedian = %lf\n", max, min, average, median);
 
 	return 0;
