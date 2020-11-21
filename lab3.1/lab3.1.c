@@ -16,7 +16,7 @@ int main()
 	double median = 0;
 	int is_random = 1;
 
-	printf("If random - enter 1 or more. If keyboard input - enter 0\n");
+	printf("If random - enter 1. If keyboard input - enter 0\n");
 	scanf("%d", &is_random);
 	if (is_random)
 	{
